@@ -1,6 +1,6 @@
 package hw2;
 
-public class hw2_1 {
+public class Hw2_1 {
 //設計一隻Java程式，計算1～1000的偶數和	
 	public static void main(String[] args) {
 		int sum = 0;

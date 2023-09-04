@@ -1,6 +1,6 @@
 package hw2;
 
-public class hw2_6 {
+public class Hw2_6 {
 //雙層for回圈，for回圈的變數 可以給另一個for回圈當上下限
 //設計一隻Java程式，輸出結果為以下：
 //	1 2 3 4 5 6 7 8 9 10

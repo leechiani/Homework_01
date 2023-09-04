@@ -1,6 +1,6 @@
 package hw2;
 
-public class hw2_7 {
+public class Hw2_7 {
 //	設計一隻Java程式，輸出結果為以下：
 //	A		=65
 //	BB

@@ -1,6 +1,6 @@
 package hw1;
 
-public class hw1_6 {
+public class Hw1_6 {
 //	請寫一隻程式，利用System.out.println()印出以下三個運算式結果：
 //	5 + 5
 //	5 + ‘5’
