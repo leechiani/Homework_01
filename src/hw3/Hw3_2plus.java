@@ -12,6 +12,7 @@ public class Hw3_2plus {
 		System.out.println("請輸入0~100任一數：");
 		int answer = sc.nextInt();
 		
+		
 
 		while (answer != target) {
 			if (answer < 0 || answer > 100) {
