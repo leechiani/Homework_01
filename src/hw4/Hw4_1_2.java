@@ -7,12 +7,9 @@ package hw4;
 public class Hw4_1_2 {
 	public static void main(String[] args) {
 		String target = "I love Java :(";
-		int length = target.length();
-		String[] reverse = new String[length];
-
-		for (int i = length - 1; i >= 0; i--) {
-			reverse[i] = target.substring(i, i + 1);
-			System.out.print(reverse[i]);
+				
+		for (int i = target.length() - 1; i >= 0; i--) {
+			System.out.print(target.charAt(i));
 		}
 	}
 }
