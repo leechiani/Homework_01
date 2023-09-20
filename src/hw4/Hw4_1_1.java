@@ -12,7 +12,7 @@ public class Hw4_1_1 {
 	public static void main(String[] args) {
 	int[]iArray = {29, 100, 39, 41, 50, 8, 66, 77, 95, 15};
 	int sum = 0;
-	int avg = 0;
+	double avg = 0;
 	for (int i = 0; i < 10; i++) {
 		sum += iArray[i];
 	}
