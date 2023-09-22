@@ -12,7 +12,11 @@ public class Hw4_1_3 {
         for (int i = 0; i < planet.length; i++) {
             for (int j = 0; j < planet[i].length(); j++) {
                 switch (planet[i].charAt(j)) {
-                    case 'a', 'e', 'i', 'o', 'u':
+                    case 'a':
+                    case 'e':
+                    case 'i':
+                    case 'o':
+                    case 'u':
                         count++;
                         break;
                 }
