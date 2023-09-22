@@ -13,8 +13,8 @@ public class Hw3_2 {
 		System.out.println("開始猜數字吧！");
 		int answer = sc.nextInt();
 
-
 		while (answer != target) {
+
 			if (answer < 0 || answer > 9) {
 				System.out.println("輸入錯誤！請輸入0~9任一數：");
 				answer = sc.nextInt();
