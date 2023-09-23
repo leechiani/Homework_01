@@ -7,7 +7,7 @@ public class Hw3_3plus {
     public static void main(String[] args) {
         int hate;
         boolean[] lotteryPool = new boolean[50];
-       
+
         System.out.println("阿文...請輸入你討厭哪個數字？");
         Scanner sc = new Scanner(System.in);
         hate = sc.nextInt();
@@ -16,6 +16,8 @@ public class Hw3_3plus {
             System.out.println("輸入錯誤，請輸入1~9");
             hate = sc.nextInt();
         }
+
+        sc.close();
 
         Arrays.fill(lotteryPool, true);
         for (int i = 1; i <= 49; i++) {
@@ -32,8 +34,6 @@ public class Hw3_3plus {
                 continue;
             }
             System.out.print(pick + "   ");
-
         }
-
     }
 }

@@ -26,6 +26,7 @@ public class Hw3_2 {
 
 		}
 		System.out.println("答對了！答案就是" + target);
+		sc.close();
 	}
 
 }

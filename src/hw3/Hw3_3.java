@@ -17,7 +17,8 @@ public class Hw3_3 {
 			System.out.println("輸入錯誤，請輸入1~9");
 			hate = sc.nextInt();
 		}
-
+		sc.close();
+		
 		for (int i = 1; i <= 49; i++) {
 
 			if (i % 10 != hate && i / 10 != hate) {
