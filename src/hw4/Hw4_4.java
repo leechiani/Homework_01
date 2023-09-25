@@ -1,7 +1,5 @@
 package hw4;
 
-import java.util.Arrays;
-
 //算出每位同學考最高分的次數
 //(提示：二維陣列)
 public class Hw4_4 {

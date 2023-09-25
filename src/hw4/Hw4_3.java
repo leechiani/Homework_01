@@ -38,6 +38,7 @@ public class Hw4_3 {
             System.out.println("錯誤，請輸入正確日數：");
             dd = sc.nextInt();
         }
+        sc.close();
         
         int days = dd; // 先算日
         for (int i = 0; i < mm - 1; i++) {

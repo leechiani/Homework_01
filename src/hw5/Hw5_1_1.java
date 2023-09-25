@@ -27,10 +27,12 @@ public class Hw5_1_1 {
         height = sc.nextInt();
 
         while (width <= 0 || height <= 0) {
-            System.out.print("錯誤，請輸入正整數：");
+            System.out.print("錯誤，請輸入正整數！");
+            System.out.print("請輸入寬與高：");
             width = sc.nextInt();
             height = sc.nextInt();
         }
         squarePrinter.starSquare(width, height);
+        sc.close();
     }
 }

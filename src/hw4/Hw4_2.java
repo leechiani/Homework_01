@@ -33,6 +33,7 @@ public class Hw4_2 {
         }
       }
     }
+    sc.close();
     if (count == 0) {
       System.out.println("沒有人！");
     } else
