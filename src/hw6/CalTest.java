@@ -1,6 +1,6 @@
 package hw6;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 // Calculator.java裡有個自訂方法為powerXY(int x, int y)，功能是會計算x的y次方並回傳結果
 // 執行後，使用者可以輸入x與y的值，請加入例外處理機制，讓程式能解決以下狀況：
