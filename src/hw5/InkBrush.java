@@ -2,9 +2,14 @@ package hw5;
 
 public class InkBrush extends Pen {
 
+    private int actualPrice;
+
     public int getPrice() {
-        double price = super.getPrice();
-        return (int) (price * 0.9);
+        return actualPrice;
+    }
+
+    public void setPrice(int price) {
+        actualPrice = (int) (price * 0.9);
     }
 
     public void write() {
