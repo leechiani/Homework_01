@@ -50,7 +50,6 @@ public class Hw8_2 {
         }
         
         public int compareTo(Train targetTrain) {
-            System.out.println("11111");
             if (this.number == targetTrain.number) {
                 return 0;
             } else if (this.number > targetTrain.number) {
@@ -116,6 +115,7 @@ public class Hw8_2 {
         Train t6 = new Train(1222, "區間", "樹林", "七堵", 300);
         Train t7 = new Train(1254, "區間", "屏東", "基隆", 700);
 
+        System.out.println("***不重複***");
         Set<Train> hs = new HashSet<Train>(); //不重複
         hs.add(t1);
         hs.add(t2);
@@ -128,6 +128,8 @@ public class Hw8_2 {
         Iterator<Train> it = hs.iterator();
         while (it.hasNext())
         it.next().showInfo();
+
+        System.out.println("***由小到大***");
 
         List<Train> tl = new ArrayList<Train>(); // 由大到小
         tl.add(t1);
@@ -142,6 +144,8 @@ public class Hw8_2 {
         for (int i = 0; i < tl.size(); i++) {
             tl.get(i).showInfo();
         }
+
+        System.out.println("***不重複+由大到小***");
 
         Set<Train> ts = new TreeSet<Train>(); //不重複+由大到小
         ts.add(t1);
