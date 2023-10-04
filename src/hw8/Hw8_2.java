@@ -129,7 +129,7 @@ public class Hw8_2 {
         while (it.hasNext())
         it.next().showInfo();
 
-        System.out.println("***由小到大***");
+        System.out.println("***由大到小***");
 
         List<Train> tl = new ArrayList<Train>(); // 由大到小
         tl.add(t1);
